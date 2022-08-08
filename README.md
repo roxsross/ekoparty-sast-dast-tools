@@ -1,7 +1,6 @@
 Vulnerable XSS Web Application
 ==============================
-### Esta es una pequeña aplicación web Node.js que es intencionalmente vulnerable cross-site scripting
-
+### Aplicación web Node.js que es intencionalmente vulnerable con cross-site scripting
 
 Fue creado para demostrar:
 
