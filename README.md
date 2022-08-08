@@ -12,7 +12,6 @@ Prerequisites
 -------------
 * [Node.js (8.14 or higher)](https://nodejs.org/en/)
 * [Yarn](https://yarnpkg.com/lang/en/) (or equivalent package manager)
-* [Heroku](https://id.heroku.com/)
 
 ### Endpoints Vulnerable
 | Endpoints  | Description                                                              |
@@ -49,3 +48,5 @@ http://localhost:3000/replace?xss=<script <script>>alert(1)</script <script>>
 - Linode
 - Digital Ocean
 - Heroku (Free)
+
+### Documentación y mejoras
