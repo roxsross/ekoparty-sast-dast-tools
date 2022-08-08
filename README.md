@@ -41,47 +41,11 @@ http://localhost:3000/remove?xss=<img src=x ononerrorerror=alert(1) />
 http://localhost:3000/replace?xss=<script <script>>alert(1)</script <script>>
 ```
 
-### Configurando Heroku
+### Para el Despliegue pueden usar:
 
-Crear cuenta, logearse y descargar heroku cli  https://id.heroku.com/
-
-Luego en la terminal logearse
-
-```
- heroku login
-```
-Login en heroku container
-```
-heroku container:login
-```
-Crear target de la aplicacion
-```
-heroku create <YOUR_APP_NAME>
-```
-Conectar git local en remote heroku 
-```
-heroku git:remote -a <YOUR_APP_NAME>
-```
-Build la imagen y push el container en Registry Heroku
-```
-heroku container:push web
-```
-Ejecute la image en la aplicacion
-```
-heroku container:release web
-```
-Verificar aplicacion node en el navegador
-```
-heroku open
-```
-Verificar Logs
-```
-heroku logs --tail
-```
-
-### Habilitar Api Key en Heroku para integrar con Github Actions
-
-```
-Desde la plataforma Heroku ir a -> Account setting y buscar ApliKey
-```
-
+- AWS
+- GCP
+- AZURE
+- Linode
+- Digital Ocean
+- Heroku (Free)
